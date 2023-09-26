@@ -68,21 +68,21 @@ Repeat from (1) each time the code is modified
   
 
 # Fix issue or download JAVA SE 19
-We have created an easy cmd script (for windows) that automatically perform all the following instructions.<br>
-Download the <a href="https://github.com/TheFedelino01/ing-sw-2023-saccani-spangaro-sanvito-pedersoli/blob/main/Deployable/easy-install-java-myshelfie.cmd">easy-install-java-myshelfie.cmd</a> file from the repo and execute it has Administrator!<br><br>
+We have created an easy cmd script (for windows) that automatically performs all the following instructions.<br>
+Download the <a href="https://github.com/TheFedelino01/ing-sw-2023-saccani-spangaro-sanvito-pedersoli/blob/main/Deployable/easy-install-java-myshelfie.cmd">easy-install-java-myshelfie.cmd</a> file from the repo and execute it as Administrator!<br><br>
 
-Otherwise, try manually these steps manually:<br>
-In order to run the game properly, you need install <a href="https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html">Java SE Development Kit 19.0.2</a><br>
+Otherwise, try these steps manually:<br>
+In order to run the game properly, you need to install the <a href="https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html">Java SE Development Kit 19.0.2</a><br>
 When installed, you need to add the following Environment Variables in windows (search bar: "env" and press enter then click on "Environment variables"):<br>
-<div>In the list of "Environment variables of the user" add the following:</div>
+<div>In the list of "User Variables" add:</div>
 
   1. `JAVA_HOME C:\Program Files\Java\jdk-19`<br>
   2. `JDK_HOME C:\Program Files\Java\jdk-19`<br>
-<div>In the list of "System variables" add the following:</div>
+<div>In the list of "System Variables" add:</div>
 
   1. `CLASSPATH C:\Program Files\Java\jdk-19\lib`
 
-# How generate Code Coverage <img src="https://i.ibb.co/4PYzV7D/cov.png" align="right" alt="logo" width="130" height = "139" style = "border: none; float: right;">
+# How to generate Code Coverage <img src="https://i.ibb.co/4PYzV7D/cov.png" align="right" alt="logo" width="130" height = "139" style = "border: none; float: right;">
 To generate the Code Coverage:  
 1. Intellij: maven `menù -> MyShelfie -> Lifecycle -> Clean` 
 2. Intellij: maven `menù -> MyShelfie -> Lifecycle -> Test`  
@@ -90,7 +90,7 @@ Code Coverage will be generated in: <br>
  -> `C:/[dir]/ing-sw-2023-saccani-spangaro-sanvito-pedersoli/MyShelfie/target/site/jacoco/index.html`<br><br>
 Open the file to see a more detailed view on the project's code coverage      
 
-# Game Screenshot
+# Game Screenshots
 <img src="https://i.postimg.cc/fRjV3Gf4/menu.png" alt="logo" width="600" heigth="300" float="center">
 <img src="https://i.ibb.co/ZJ0yHTQ/nickname.png" alt="logo" width="600" heigth="300" float="center">
 <img src="https://i.postimg.cc/MTXHFv2x/lobby.png" alt="logo" width="600" heigth="300" float="center">
